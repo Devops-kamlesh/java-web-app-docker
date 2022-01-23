@@ -17,7 +17,7 @@ spec:
       containers:
       - name: javawebappcontainer
         image: docker8955/java-web-application
-        port:
+        ports:
         - containerPort: 8080
 
 ---
